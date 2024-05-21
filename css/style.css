@@ -9535,10 +9535,12 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+  animation: myAnim 4s ease 0s 1 normal forwards;
 }
 
 .text-primary {
   color: #331acc !important;
+  animation: myAnim 4s ease 0s 1 normal forwards;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10527,4 +10529,60 @@ h6,
 .text--zipping [data-scroll='out'] .char:nth-of-type(7) {
   -webkit-transform: translate(0, -100%);
           transform: translate(0, -100%);
+}
+
+/* text animation*/
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
 }

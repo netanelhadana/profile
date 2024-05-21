@@ -495,9 +495,8 @@ mark,
 }
 
 .list-inline {
-  padding-left: 2px;
+  padding-left: 45px;
   list-style: none;
-  padding-right: 2px;
 }
 
 .list-inline-item {

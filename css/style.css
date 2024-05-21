@@ -10017,6 +10017,7 @@ h6,
 
 .Para{
   border-style: outset;
+  padding: 15px;
 }
 
 .titleP h1 {

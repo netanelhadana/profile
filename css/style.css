@@ -10013,6 +10013,10 @@ h6,
   line-height:2
 }
 
+.Para{
+  border-style: outset;
+}
+
 .titleP h1 {
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
   background-size: cover;
